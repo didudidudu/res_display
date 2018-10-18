@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*通用*/
+.btn-outline.btn-primary.active, .btn-outline.btn-primary:active, .btn-outline.btn-primary:focus, .btn-outline.btn-primary:hover, .open>.dropdown-toggle.btn-outline.btn-primary {
+	background-color: #0f67ae!important;
+	border-color: #0f67ae!important;
+}
+.btn-outline.btn-primary {
+	color: #fff!important;
+}
+.nav-tabs-vertical .nav-tabs>li.active>a, .nav-tabs-vertical .nav-tabs>li.active>a:focus, .nav-tabs-vertical .nav-tabs>li.active>a:hover {
+	border-right-color: #0f67ae!important;
+	background-color: #0f67ae!important;
+}
+.form-control.focus, .form-control:focus {
+	border-color: #0f67ae!important;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before, .checkbox-primary input[type="radio"]:checked + label::before {
+	background-color: #0f67ae!important;
+	border-color: #0f67ae!important;
+}
+.met_pager a.Ahover {
+	border-color: #0f67ae!important;
+	background: #0f67ae!important;
+}
+.met-news-bar .recommend .list-group a:hover {
+	color: #0f67ae!important;
+}
+.column li a:hover {
+	color: #0f67ae!important;
+}
+.met_pager a.Ahover:hover {
+	border-color: #0f67ae!important;
+	background: #0f67ae!important;
+}
+.pager li>a:focus, .pager li>a:hover {
+	border-color: #0f67ae!important;
+	color: #0f67ae!important;
+}
+.nav-tabs-line>li.active>a, .nav-tabs-line>li.active>a:focus, .nav-tabs-line>li.active>a:hover {
+	color: #0f67ae!important;
+	border-bottom: 2px solid #0f67ae!important;
+}
+.modal-primary .modal-header {
+	background-color: #0f67ae!important;
+}
+.radio-primary input[type="radio"]:checked + label::before {
+	border-color: #0f67ae!important;
+}
+.btn-primary {
+	background-color: #0f67ae!important;
+	border-color: #0f67ae!important;
+}
+/*内页*/
+.met-column-nav .met-column-nav-ul>li a.link:hover, .met-column-nav .met-column-nav-ul>li a.link.active {
+	color: fff!important;
+}
+.met-column-nav .met-column-nav-ul>li a.link:hover, .met-column-nav .met-column-nav-ul>li a.link.active {
+	background: #0f67ae!important;
+}
+.met-product.type-1 h4 a:hover {
+	color: #0f67ae!important;
+}
+.dropdown-menu>li>a:hover {
+	color: #0f67ae!important;
+}
+.met-news ul.met-page-ajax li h4 a:hover {
+	color: #0f67ae!important;
+}
+.met-position.pattern-show a {
+	color: #0f67ae!important;
+}
+.met-download .met-download-list a.btn {
+	color: #fff!important;
+}
+.met-download .paralist .met-download-btn {
+	color: #fff!important;
+}
+met-job-cvbtn {
+	color: #fff!important;
+}
+#met-imgs-carousel .slick-dots li.slick-active {
+	border-color: #0f67ae!important;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+	background-color: #0f67ae!important;
+	border-color: #0f67ae!important;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+	background-color: #0f67ae!important;
+	border-color: #0f67ae!important;
+}
+.met-news-bar ul.column li a.active {
+	color: #0f67ae!important;
+}
+.met-position a:hover, .met-position a:focus, .met-position a:active {
+	color: #0f67ae!important;
+}
+.met-position .breadcrumb li:before {
+	color: #0f67ae!important;
+}
+/*自定义*/
+header .search-box .input-search-btn .icon {
+	background-color: #0f67ae!important;
+}
+.met-nav {
+	background-color: #0f67ae!important;
+}
+.met-nav .nav li a.active:before, .met-nav .nav li a:hover:before {
+	color: #0f67ae!important;
+}
+.met-nav .dropdown-menu {
+	border-top: 3px solid #0f67ae!important;
+}
+.met-banner .banner-text .line {
+	background-color: #0f67ae!important;
+}
+.met-banner .banner-text h4 b {
+	color: #0f67ae!important;
+}
+.met-banner .slick-arrow {
+	background-color: #0f67ae!important;
+}
+.met-index-notice .notice {
+	background-color: #0f67ae!important;
+}
+.title-box .title-tabs li.active a {
+	background-color: #0f67ae!important;
+}
+.index-title p {
+	background-color: #0f67ae!important;
+}
+.met-index-service [class*=blocks] li:hover div h3 {
+	color: #0f67ae!important;
+}
+input:focus {
+	border: 1px solid #0f67ae!important;
+}
+.title-box .title-tabs li a:hover {
+	background-color: #0f67ae!important;
+}
+.index-more {
+	color: #0f67ae!important;
+}
+.index-more:hover {
+	background-color: #0f67ae!important;
+	color: #fff!important;
+	border-color: #0f67ae!important;
+}
+.met-index-product #product-list .widget:hover h4 {
+	background-color: #0f67ae!important;
+}
+.met-index-news .imgnews-list .item1 .text {
+	background-color: #0f67ae!important;
+}
+.met-footnav:before {
+	background-color: #0f67ae!important;
+}
+footer .right a:hover {
+	color: #0f67ae!important;
+}
+.met-footnav .info em:hover {
+	color: #0f67ae!important;
+}
+.met-footnav .info p:hover {
+	color: #0f67ae!important;
+}
+.met-links a {
+	color: #0f67ae!important;
+}
+footer a:hover {
+	color: #0f67ae!important;
+}
+html:not(.isMobile) *::-webkit-scrollbar-thumb {
+ background-color:#0f67ae!important;
+}
+.met-column-nav .sidebar-loc a:hover {
+	color: #0f67ae!important;
+}
+.met-product.type-1 .widget:hover h4:after {
+	background-color: #0f67ae!important;
+}
+.met-index-news .imgnews-list li:hover h3 {
+	color: #0f67ae!important;
+}
+.met-index-news .imgnews-list li .fa {
+	color: #0f67ae!important;
+}
+.met-index-news .imgnews-list .item1 .text .content h3 {
+	color: #fff!important;
+}
+.met-footnav ul li a:hover {
+	color: #0f67ae!important;
+}
+.met-nav .nav .open>a:before, .met-nav .nav .open>a:focus:before, .met-nav .nav .open>a:hover:before {
+	color: #0f67ae!important;
+}
+.met-banner-ny {
+	background-color: #fff!important;
+}
+@media (max-width: 991px) {
+.met-nav .met-nav-login {
+	background: #0f67ae!important;
+}
+}
+@media (max-width: 767px) {
+header .search-box .m-search i {
+	background-color: #0f67ae!important;
+}
+.met-footnav h4 {
+	background: #0f67ae!important;
+}
+.met-nav .met-nav-login, .met-nav .met-nav-right-shop {
+	background: #0f67ae!important;
+}
+.met-nav .met-nav-login .btn {
+	background: #0f67ae!important;
+}
+}

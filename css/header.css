@@ -1,0 +1,240 @@
+a{
+    text-decoration: none !important;
+}
+.header{
+    background: #0f67ae;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.head_login{
+    position: relative;
+}
+.ulNav{
+    display: inline-block;
+    height: 86px;
+    float: left;
+    margin-bottom: 0;
+    width: 700px;
+    text-align: right;
+    padding-right: 10px;
+}
+.logo{
+    float: left;
+    width: 380px;
+}
+.logo img{
+    margin-top: 15px;
+}
+.user_info{
+    float: right;
+    width: 120px;
+    margin-top: 29px;
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+    position: relative;
+}
+/*处理账户名称显示超出省略及弹出框内名称超出省略*/
+.user_info .user_menu span{
+	width: 60px;
+	display:block;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	float: right;
+	line-height: 30px;
+}
+.user_info .user_panel h6{
+	padding: 12px 25px;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.user_info .user_panel .base_info i{
+	padding: 0 25px;
+	display: block;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.ulNav li{
+    display: inline-block;
+    height: 86px;
+}
+.chaoxing{
+    position: relative;
+}
+.ulNav li.active {
+    background: #3689cc;
+}
+.ulNav li a{
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 86px;
+    text-decoration: none;
+    padding: 0px 18px;
+    position: relative;
+}
+.ulNav li a:hover{
+    background: #3689cc;
+}
+.user_info span{
+    color: #fff;
+}
+.menu_off::after {
+    content: " ";
+    color: #fff;
+    background: url("../images/navxia.png") no-repeat center right 5px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: -10px;
+}
+.ulNav .chaoxing::before{
+    content: " ";
+    color: #fff;
+    background: url("../images/navxia.png") no-repeat center right 5px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 35px;
+    right: 3px;
+}
+.ulNav .chaoxing a{
+    padding: 0 28px;
+}
+.oddn{
+    position: absolute;
+    background: #fff;
+    right: 0;
+    z-index: 10;
+    padding: 20px 0;
+    border-radius: 6px;
+    top: 75px;
+    display: none;
+    width: 920px;
+    /*919*/
+    box-shadow: 0px 0px 10px #9e9e9e;
+}
+.oddn li{
+    width: 230px;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    padding: 0 24px;
+    height: auto;
+    float: left;
+}
+.oddn li:first-child{
+    border: none
+}
+.shawx,.shawx1{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9;
+    display: none;
+}
+.oddn li p:nth-child(2){
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+}
+.ulNav li .oddn li a{
+    line-height: 16px;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 14px;
+    color: #3689cc;
+    height: 16px
+}
+.ulNav li .oddn li a:hover{
+    background: none; 
+}
+.header1{
+    background: #fff;
+    text-align: center;
+}
+.header1 .bw{
+    display: inline-block;
+    padding: 20px 0;
+}
+.header1 .left_nav,.header1 .left_nav_path{
+    text-align: left;
+}
+.header1 .left_nav,.header1 .left_nav_path,.header1 .right_nav{
+    width: 50%;
+    float: left;
+}
+.header1 .left_nav span,.header1 .left_nav_path span{
+    color: #000;
+    font-size: 16px;
+    padding:10px;
+}
+.header1 .left_nav span:hover,.header1 .left_nav span.active{
+    background: #e4651d;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header1 .left_nav_path img{
+    margin-right: 8px;
+    position: relative;
+    top: -3px;
+}
+.header1 .left_nav_path span{
+    font-size: 14px !important;
+    color: #0f67ae !important;
+    padding-left: 3px !important;
+}
+
+.header1 .right_nav{
+    text-align: right;
+}
+.header1 .right_nav a{
+    text-decoration: none;
+    margin-left: 36px;
+}
+.header1 .right_nav a img{
+    margin-right: 6px;
+}
+.header1 .right_nav a:first-child img:nth-child(2){
+    display: none;
+}
+.header1 .right_nav a:first-child:hover img:nth-child(2){
+    display: inline-block;
+}
+.header1 .right_nav a:first-child:hover img:nth-child(1){
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

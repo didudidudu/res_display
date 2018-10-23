@@ -400,5 +400,8 @@ a{cursor: pointer;}
     background: rgba(255,255,255,0);
 }
 .guide h2 b{
+	/*color: #FFFFFF;*/
+}
+.guide h2 i{
 	color: #FFFFFF;
 }

@@ -328,14 +328,14 @@
 			//创新成果初始化
 			$(".select-ul li").each(function(e){
 				if($(this).find("a").hasClass("active")){
-					//getEnterprise(allType($(this).find("a").html()));
+//					getEnterprise(allType($(this).find("a").html()));
 				}
 			});
 		});
 		//点击筛选条件改变按钮样式，最好放在ajax执行完成后连同数据一块变化
 		$(".select-items ul li a").on("click",function(e){
 			$(this).addClass("active").parent().siblings().find("a").removeClass("active");
-			//getEnterprise(allType($(this).html()));
+//			getEnterprise(allType($(this).html()));
 		});
 		
 		//根据类型获取企业成果

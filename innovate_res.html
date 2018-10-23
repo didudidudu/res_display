@@ -343,13 +343,13 @@
 			//创新成果初始化
 			$(".select-ul li").each(function(e){
 				if($(this).find("a").hasClass("active")){
-					getInnovate(allType($(this).find("a").html()));
+					//getInnovate(allType($(this).find("a").html()));
 				}
 			});
 		});
 		//点击筛选条件改变按钮样式，最好放在ajax执行完成后连同数据一块变化
 		$(".select-items ul li a").on("click",function(e){
-			getInnovate(allType($(this).html()));
+			//getInnovate(allType($(this).html()));
 			$(this).addClass("active").parent().siblings().find("a").removeClass("active");
 		});
 		//根据类型获取创新成果

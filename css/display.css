@@ -395,3 +395,10 @@ a{cursor: pointer;}
 .btn-hoverstyle:hover{
 	background-color: #1f83d4!important;
 }
+/*展会指南*/
+.met-index-about {
+    background: rgba(255,255,255,0);
+}
+.guide h2 b{
+	color: #FFFFFF;
+}
